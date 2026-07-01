@@ -1,0 +1,25 @@
+:root{
+
+    --background:#F6F3EE;
+
+    --text:#1F2B2B;
+
+    --sage:#7B8A86;
+
+    --accent:#A26D5C;
+
+    --peach:#E8C9B7;
+
+    --glass:rgba(255,255,255,.32);
+
+    --border:rgba(255,255,255,.25);
+
+}
+body{
+background:#F8F6F1;
+overflow-x:hidden;
+}
+
+canvas{
+touch-action:none;
+}
