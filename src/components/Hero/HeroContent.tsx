@@ -98,25 +98,7 @@ export default function HeroContent() {
           Book Appointment
         </button>
 
-        <button
-          className="
-          rounded-full
-          border
-          border-[#24332F]
-          bg-white/40
-          backdrop-blur-xl
-          px-10
-          py-5
-          text-lg
-          text-[#24332F]
-          transition-all
-          duration-300
-          hover:bg-white/70
-          hover:-translate-y-1
-          "
-        >
-          Talk to Us
-        </button>
+        
       </motion.div>
     </motion.div>
   );

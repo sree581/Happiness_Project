@@ -111,38 +111,16 @@ export default function Story() {
 
           <p
             className="
-            mb-7
             text-[18px]
             leading-9
             text-[#666666]
             "
           >
-            Happiness Project began with a simple, shared belief:
-            mental health support should feel like care,
-            not a clinical transaction.
-          </p>
-
-          <p
-            className="
-            text-[18px]
-            leading-9
-            text-[#666666]
-            "
-          >
-            It was founded by two friends — a clinical psychologist
-            who has spent years working closely with people through
-            their hardest moments, and a researcher in criminal
-            justice with a deep interest in how communities heal —
-            who wanted to build something different for Kollam.
-
-            <br />
-            <br />
-
-            What they set out to create wasn't just a therapy
-            centre. It was a space where people could show up
-            exactly as they are, talk openly without fear of
-            judgment, and find their way back to themselves,
-            supported by people who genuinely care.
+            Happiness Project was founded by two friends — a clinical
+            psychologist and a researcher in community healing — who
+            wanted to build something different for Kollam: a space
+            where people could show up as they are, speak freely, and
+            find their way back to themselves.
           </p>
 
           {/* Cards */}
@@ -203,33 +181,16 @@ export default function Story() {
                 Our Mission
               </h4>
 
-              <ul
+              <p
                 className="
-                list-inside
-                list-disc
-                space-y-4
                 text-[16px]
                 leading-8
                 text-[#666]
                 "
               >
-
-                <li>
-                  Promote good mental health through approaches
-                  that go beyond the traditional therapy session.
-                </li>
-
-                <li>
-                  Create a genuinely safe environment for every
-                  person who walks through our door.
-                </li>
-
-                <li>
-                  Offer support that is evidence-based,
-                  but never cold or clinical in its delivery.
-                </li>
-
-              </ul>
+                A genuinely safe space for every person, offering care
+                that's evidence-based but never cold or clinical.
+              </p>
 
             </motion.div>
 
@@ -287,24 +248,9 @@ export default function Story() {
                 text-[#666]
                 "
               >
-                Most clinics are built around efficiency.
-                We built ours around comfort.
-                The environment here is intentionally
-                warm—closer to a home than a hospital—
-                because we believe people open up more
-                honestly when they feel safe, not just seen.
-              </p>
-
-              <p
-                className="
-                mt-5
-                text-[16px]
-                leading-8
-                text-[#666]
-                "
-              >
-                Every plan is built around the individual
-                in front of us, not a template.
+                Built around comfort, not efficiency — closer to a home
+                than a hospital, with every plan shaped around the
+                individual, not a template.
               </p>
 
             </motion.div>

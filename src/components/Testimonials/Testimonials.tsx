@@ -19,7 +19,7 @@ export default function Testimonials() {
   return (
     <section
       id="testimonials"
-      className="relative overflow-hidden bg-[#F3F0EA] py-40 border-t border-[#E6DED4] shadow-[0_-20px_40px_-20px_rgba(36,51,47,0.04)]"
+      className="relative min-h-screen flex items-center overflow-hidden bg-[#F3F0EA] py-32 border-t border-[#E6DED4] shadow-[0_-20px_40px_-20px_rgba(36,51,47,0.04)]"
     >
       {/* Background Number */}
 
@@ -27,14 +27,14 @@ export default function Testimonials() {
         06
       </div>
 
-      <div className="mx-auto max-w-7xl px-8">
+      <div className="mx-auto w-full max-w-7xl px-8">
 
         <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="mb-20 text-center"
-        >
+  initial={{ opacity: 0, y: 40 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.8 }}
+  className="mb-24 text-center"
+>
           <p className="mb-5 uppercase tracking-[0.5em] text-[#8A847A]">
             TESTIMONIALS
           </p>
@@ -45,10 +45,9 @@ export default function Testimonials() {
             matter.
           </h2>
 
-          <p className="mx-auto mt-8 max-w-2xl text-lg leading-8 text-[#666]">
+          <p className="mx-auto mt-8 max-w-2xl text-lg leading-48 text-[#666]">
             Real experiences from people who've found support at
-            Happiness Project. Names can be withheld or shortened
-            to initials to protect client privacy.
+            Happiness Project. 
           </p>
         </motion.div>
 

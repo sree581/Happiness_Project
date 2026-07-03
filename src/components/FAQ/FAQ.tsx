@@ -30,20 +30,20 @@ const faqs = [
 ];
 
 export default function FAQ() {
-  const [open, setOpen] = useState<number | null>(0);
+  const [open, setOpen] = useState<number | null>(null);
 
   return (
     <section
       id="faq"
-      className="relative overflow-hidden bg-[#F8F6F1] py-400"
+      className="relative min-h-screen flex items-center overflow-hidden bg-[#F3F0EA] py-32 border-t border-[#E6DED4] shadow-[0_-20px_40px_-20px_rgba(36,51,47,0.04)]"
     >
       {/* Background Number */}
 
-      <div className="absolute right-12 top-70 select-none text-[220px] font-bold text-[#24332F]/5">
+      <div className="absolute right-12 top-10 select-none text-[220px] font-bold text-[#24332F]/5">
         05
       </div>
 
-      <div className="mx-auto grid max-w-7xl gap-20 px-8 lg:grid-cols-[0.8fr_1.2fr]">
+      <div className="mx-auto grid w-full max-w-7xl gap-20 px-8 lg:grid-cols-[0.8fr_1.2fr]">
 
         {/* LEFT */}
 
@@ -51,7 +51,7 @@ export default function FAQ() {
           initial={{ opacity: 0, x: -60 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
-          className="sticky top-36 self-start"
+          className="self-start"
         >
           <p className="mb-6 uppercase tracking-[0.55em] text-[#8A847A]">
             FAQ

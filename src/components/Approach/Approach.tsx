@@ -3,28 +3,28 @@ import { motion } from "framer-motion";
 const features = [
   {
     title: "Personalized, Not Templated",
-    text: "No two people walk in with the same story, so no two treatment plans look the same either.",
+    text: "No two people walk in with the same story, so no two treatment plans do either.",
   },
   {
     title: "A Warm, Home-Like Setting",
-    text: "The space itself is built to feel comforting rather than clinical, because comfort makes honesty easier.",
+    text: "Built to feel comforting rather than clinical, because comfort makes honesty easier.",
   },
   {
     title: "Genuine Expertise",
-    text: "Every therapist is professionally trained and equally invested in the human side of the work.",
+    text: "Every therapist is professionally trained and invested in the human side of the work.",
   },
   {
     title: "Confidentiality, Always",
-    text: "What's shared in a session stays in that session. No exceptions. No grey areas.",
+    text: "What's shared in a session stays there. No exceptions.",
   },
 ];
 
 export default function Approach() {
   return (
     <section
-      id="approach"
-      className="relative min-h-screen bg-[#F8F6F1] py-400 overflow-hidden"
-    >
+  id="approach"
+  className="relative min-h-screen bg-[#F8F6F1] pt-32 pb-48 lg:pt-40 lg:pb-56 overflow-hidden"
+>
       <div className="absolute left-8 top-0 text-[320px] font-bold text-[#24332F]/5 select-none">
         04
       </div>
@@ -53,16 +53,9 @@ export default function Approach() {
           </h2>
 
           <p className="text-xl leading-10 text-[#666] max-w-3xl">
-            Healing begins with feeling heard.
-            We believe real change happens when people are given a
-            genuinely safe space to explore their thoughts and emotions,
-            without fear of judgment.
-          </p>
-
-          <p className="mt-8 text-xl leading-10 text-[#666] max-w-3xl">
-            Every session combines compassion, professional expertise,
-            and evidence-based therapeutic methods to support lasting
-            emotional wellbeing and personal growth.
+            Healing begins with feeling heard. Every session combines
+            compassion and evidence-based methods, in a space where
+            people can be honest without fear of judgment.
           </p>
 
         </motion.div>
